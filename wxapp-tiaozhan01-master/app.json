@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/inter/inter",
+    "pages/tree/tree",
+    "pages/user/user",
+    "pages/demo01/demo01",
+    "pages/demo02/demo02",
+    "pages/demo03/demo03"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#aaaaaa",
+    "selectedColor": "#dddddd",
+    "backgroundColor": "#444444",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/inter/inter",
+        "text": "互动消息"
+      },
+      {
+        "pagePath": "pages/tree/tree",
+        "text": "树人计划"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的课程"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,43 @@
+/* pages/demo01/demo01.wxss */
+.title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  color: #000000;
+}
+.bg{
+  width: 100%;
+  height: 100rpx;
+  border-radius: 10rpx;
+  box-shadow: 10rpx 0 40rpx #000000;
+}
+.info01{
+  display: flex;
+  font-size: 30rpx;
+  color: #999;
+  align-items: center;
+  justify-content: center;
+}
+.info02{
+  position: absolute;
+  font-size: 30rpx;
+  color: #000000;
+  width: 400rpx;
+  left: 20rpx;
+  bottom: 20rpx;
+}
+.info03{
+  position: absolute;
+  font-size: 36rpx;
+  color: #000000;
+  right: 20rpx;
+  bottom: 20rpx;
+}
+.front{
+  width: 100%;
+}
+.card{
+  margin: 80rpx;
+  position: relative;
+}

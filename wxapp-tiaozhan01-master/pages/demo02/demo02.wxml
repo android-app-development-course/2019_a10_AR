@@ -1,0 +1,3 @@
+<!--pages/demo02/demo02.wxml-->
+<text class="title">{{percentage}}</text>
+<button bindtap="back">点我</button>

@@ -1,0 +1,11 @@
+<!--pages/demo01/demo01.wxml-->
+<view>
+  <image src="../../image/teach01.png" class="front"></image>
+  <text class="title">{{title[turn]}}</text>
+  <text class="info01">{{information[turn]}}</text>
+  <view class="card" wx:for="{{class_list[turn]}}" wx:for-index="idx">
+    <image src="../../image/bg-003.png" class="bg"></image>
+    <view class="info02">{{item}}</view>
+    <view class="info03">{{money[turn][idx]}}元</view>
+  </view>
+</view>

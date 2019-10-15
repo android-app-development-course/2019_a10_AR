@@ -1,0 +1,3 @@
+<!--pages/demo03/demo03.wxml-->
+<text class="title">{{person.teacher_name}}</text>
+

@@ -1,0 +1,173 @@
+page {
+  height: 100%;
+  
+}
+/* 根节点（控制全局 */
+.root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #ffffff;
+}
+/* 滑动界面修改 */
+.contant {
+  height: 100%;
+  background-color: #d8f1ca;
+  font-family: KaiTi;
+}
+/* 轮播窗面板设置 */
+.swiper{
+  width: 100%;
+  height: 400rpx;
+}
+/* 轮播图面板控制 */
+.swiper .image{
+  height: 100%
+}
+/* 搜索框和搜索背景和颜色 */
+.page_row{  
+  background-color: #999999;
+  display: flex;  
+  flex-direction: row;  
+  height: 125rpx;
+} 
+/* 搜索输入框长度 */
+.search{  
+  width: 80%;
+}  
+.search_arr {  
+  border: 1px solid #d0d0d0;  
+  border-radius: 10rpx;  
+  margin-left: 20rpx;  
+}  
+.search_arr input{  
+  margin-left: 60rpx;  
+  height: 60rpx;  
+  border-radius: 10rpx;  
+}  
+/* 搜索按钮设置 */
+.sousuo {  
+  margin-left: 15rpx;  
+  font-size: 40rpx;
+  width: 15%; 
+  height: 60rpx;   
+  line-height: 150%;  
+  text-align: center;  
+  border: 3rpx solid #d0d0d0;  
+  border-radius: 10rpx;  
+} 
+.card{
+  margin: 40rpx;
+  position: relative;
+}
+.bg{
+  width: 100%;
+  border-radius: 10rpx;
+  box-shadow: 10rpx 0 40rpx #000000;
+}
+.logo01{
+  width: 350rpx;
+  position: absolute;
+  top: 40rpx;
+  left: 40rpx;
+}
+.logo02{
+  width: 150rpx;
+  border-radius: 50rpx;
+  border:  5rpx solid #60ffff; 
+  position: absolute;
+  bottom: 150rpx;
+  right: 40rpx;
+}
+.info01{
+  position: absolute;
+  font-size: 50rpx;
+  left: 60rpx;
+  bottom: 40rpx;
+}
+.info02{
+  position: absolute;
+  font-size: 30rpx;
+  color: #999;
+  right: 30rpx;
+  top: 30rpx;
+}
+.info03{
+  position: absolute;
+  font-size: 30rpx;
+  color: #999;
+  right: 40rpx;
+  bottom: 40rpx;
+}
+.info04{
+  position: absolute;
+  font-size: 40rpx;
+  color: #999;
+  right: 55rpx;
+  bottom: 155rpx;
+}
+/* 按钮选项 */
+.option{
+  display: flex;
+  flex-wrap: wrap;
+}
+/* 按钮背景 */
+.option .borden{
+  height: 250rpx;
+  align-items: center;
+  justify-content: center;
+}
+/* 位置文字设置 */
+.option .item{
+  width: 250rpx;
+  align-items: center;
+  justify-content: center;
+}
+/* 按钮文字设置 */
+.option .item .title{
+  background-color: #89cff0;
+  font-size: 40rpx;
+  width: 80%;  
+  line-height: 150%;  
+  text-align: center;  
+  border: 2rpx solid #d0d0d0;  
+  border-radius: 10rpx;
+}
+.searchcion {  
+  margin: 10rpx 10rpx 10rpx 10rpx;  
+  position: absolute;  
+  left:25rpx;  
+  z-index: 2;  
+  width: 40rpx;  
+  height: 40rpx;  
+  text-align: center;  
+}
+.title{
+  font-size: 40rpx;
+  text-align: center; 
+}
+/* 课程   */
+.portals{
+  display: flex;
+  flex-wrap: wrap;
+  border: 20rpx solid #d8f1ca;
+}
+.portals .borden{
+  width: 310rpx;
+  height: 375rpx;
+  border: 20rpx solid #d8f1ca;
+}
+/* 课程图片 */
+.portals .pirture{
+  width: 320rpx;
+  height: 310rpx;
+  border: 5rpx solid rgb(150, 175, 255);
+}
+/* 课程文字描述 */
+.portals .text{
+  border: 5rpx solid rgb(150, 175, 255);
+  width: 305rpx;
+  font-size: 32rpx;
+  align-items: center;
+  justify-content: center;
+}
