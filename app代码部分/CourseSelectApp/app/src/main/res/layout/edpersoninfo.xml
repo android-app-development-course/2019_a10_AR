@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="45sp"
+        android:background="#20B2AA"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/btn_back"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:text="返回"
+            android:textColor="#fff"
+            android:textSize="30sp"
+            android:background="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_idshow"
+            android:layout_marginTop="50dp"
+            android:text="账号"
+            android:textSize="30sp"
+            android:gravity="center"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_name"
+                android:layout_centerVertical="true"
+                android:text="姓名："
+                android:textSize="20sp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/et_truename"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/tv_psw"
+                android:hint="输入姓名"
+                android:textSize="16sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_age"
+                android:layout_centerVertical="true"
+                android:text="年龄："
+                android:textSize="20sp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/et_age"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/tv_age"
+                android:hint="输入年龄"
+                android:textSize="16sp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_school"
+                android:layout_centerVertical="true"
+                android:text="学校："
+                android:textSize="20sp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/et_school"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/tv_school"
+                android:hint="输入学校"
+                android:textSize="16sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_college"
+                android:layout_centerVertical="true"
+                android:text="院系："
+                android:textSize="20sp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/et_faculty"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/tv_college"
+                android:hint="输入院系"
+                android:textSize="16sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_class"
+                android:layout_centerVertical="true"
+                android:text="班级："
+                android:textSize="20sp"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/et_classes"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/tv_class"
+                android:hint="输入班级"
+                android:textSize="16sp"/>
+        </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="30dp"
+           android:gravity="center"
+           >
+           <Button
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/btn_save"
+               android:text="   保存   "
+               android:textSize="40sp"/>
+
+       </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F2F2"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#FFF"
+        android:orientation="vertical"
+        android:layout_weight="2">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:textSize="45sp"
+            android:background="#20B2AA"
+            >
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/btn_back"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="返回"
+                android:textColor="#fff"
+                android:textSize="30sp"
+                android:background="@color/colorPrimary"/>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:background="#F2F2F2"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="#fff">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:layout_marginBottom="70dp"
+            android:background="#F2F2F2">
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_image"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="30dp"
+            android:layout_weight="6"
+            android:scaleType="fitXY">
+
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:layout_marginBottom="70dp"
+            android:background="#F2F2F2">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:orientation="vertical"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="#fff">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/tv_coursename"
+            android:layout_weight="2"
+            android:gravity="center_horizontal"
+            android:textSize="30sp"
+            android:text="美工开课"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/tv_teacher"
+            android:layout_weight="2"
+            android:textSize="25sp"
+            android:gravity="center_horizontal"
+            android:text="教师:小帅"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/tv_book"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:text="教材：《美工基础知识》"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/tv_time"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:text="时间：2019-11-23"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/tv_brief"
+            android:layout_weight="8"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:text="简介：犹记得当年种下了一株蔷薇，藤蔓顺着风来的方向慢慢地生
+            长，每逢春意盎然时分，便开出一些红色的花朵，有血一般的深沉，又有玫瑰的几分绚丽。
+            与那株月季的枝桠狠狠地交缠，若不是那株月季淡粉色的花朵，或许真可能分不清彼此。我想念
+            照料那些花的日子，于闲暇时光中找到自己唯一需要关怀的东西，自然是一份美好，可惜，那些记
+            忆终究淹没在了时光的深海之中，纵然竭力找寻，终究是没了踪影。"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:gravity="center_horizontal">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_cancel"
+                android:layout_marginTop="15dp"
+                android:text="退选"
+                />
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F2F2"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/rclviewlv"
+            android:background="#E6E6FA"
+            android:layout_weight="4"
+
+            >
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rclview"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_below="@id/rclviewlv"
+            android:layout_marginTop="10dp">
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:id="@+id/search_et"
+                android:layout_weight="9"
+                android:gravity="center"
+                android:hint="这是一个搜索框"
+                android:textSize="15sp"
+                android:layout_marginLeft="20dp"
+                android:background="#fff"
+                />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:id="@+id/search_btn"
+                android:layout_weight="2"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@id/rclview"
+                android:text="搜索"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:layout_marginLeft="5dp"
+        android:text="全部课程"
+        android:gravity="center_vertical"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:orientation="vertical">
+
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/listv"
+            android:layout_weight="7.6"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="首页"
+                android:background="#66CDAA"
+                android:textSize="25sp"
+                android:layout_weight="1"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/toperson_btn"
+                android:layout_weight="1"
+                android:text="我的"
+                android:textSize="25sp"
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
